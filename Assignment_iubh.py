@@ -149,11 +149,11 @@ df1 = round(pd.read_sql_table('trngfun', con=engine), 2)
 df2 = round(pd.read_sql_table('testfun', con=engine), 2)
 
 #all the three tables are printed to screen using pandas dataframe
-print("\nIdeal function's data: df(50 colx100rows\n")
+print("\n Ideal function's data: df(50 colx100 rows\n")
 print(df)
-print("\nTainnng function's data: df1(4 colx100rows\n")
+print("\n Tainnng function's data: df1(4 colx100 rows\n")
 print(df1)
-print("\nTest function's data: df2(01 colx100rows\n")
+print("\n Test function's data: df2(01 colx100 rows\n")
 print(df2)
 
 #columns of training table are renamed before joining to ideal functions
